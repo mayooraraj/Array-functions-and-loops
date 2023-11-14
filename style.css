@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #bebcbc;
+    text-align: left;
+    padding: 8px;
+}
+.navbar{
+    background-color:rgb(9, 9, 110);
+    padding: 20px 0px;
+}
+#sort{
+    width: 270px;
+    padding: 5px;
+    background-color: honeydew;
+    font-size: 15px;
+    font-style: italic;
+}
+#search_Item, #quantity{
+    width: 270px;
+    padding: 7px;
+    background-color: honeydew;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+#button{
+    padding: 8px;
+    width: 90px;
+    background-color: palevioletred;
+    color: white;
+    border:1px solid black;
+}
+#button:hover{
+    background-color: purple;
+}
+label{
+    margin-left: 40px;
+    font-size: 17px;
+    color: white;
+}
+

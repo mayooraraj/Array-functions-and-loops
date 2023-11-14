@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array function and loop</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <label >Sort By:</label>
+        <select id="sort" onchange="sortElement()">
+            <option value="name">Name</option>
+            <option value="age">Age</option>
+            <option value="department">Department</option>
+            <option value="mark">Mark</option>
+        </select>
+
+        <label >Search</label>
+        <input type="text"  id="search_Item" oninput="searchInput()">
+
+        <label >Filter by Mark</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="100">
+        <input type="submit" value="Submit" id="button" onclick="filterByMark()">
+    </div>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Department</th>
+                    <th>Total Mark</th>
+                </tr>
+            </thead>
+            <tbody id="table_content"></tbody>
+        </table>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
